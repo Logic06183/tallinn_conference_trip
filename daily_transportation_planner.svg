@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="900" height="800" viewBox="0 0 900 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Time slot gradients -->
+    <linearGradient id="morningGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FFE082;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFF3E0;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="dayGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#81C784;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E8F5E8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="eveningGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#9FA8DA;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E8EAF6;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Transport mode icons -->
+    <g id="bus-small">
+      <rect x="-6" y="-3" width="12" height="6" rx="1" fill="#FF6B35"/>
+      <circle cx="-3" cy="2" r="1" fill="white"/>
+      <circle cx="3" cy="2" r="1" fill="white"/>
+    </g>
+    <g id="tram-small">
+      <rect x="-6" y="-3" width="12" height="6" rx="1" fill="#2E8B57"/>
+      <rect x="-4" y="-1" width="2" height="2" fill="white"/>
+      <rect x="-1" y="-1" width="2" height="2" fill="white"/>
+      <rect x="2" y="-1" width="2" height="2" fill="white"/>
+    </g>
+    <g id="rideshare-small">
+      <ellipse cx="0" cy="0" rx="6" ry="3" fill="#9B59B6"/>
+      <text x="0" y="1" text-anchor="middle" font-family="Arial" font-size="6" fill="white">B</text>
+    </g>
+    <g id="walk-small">
+      <circle cx="0" cy="-2" r="1" fill="#666"/>
+      <path d="M0,0 L0,4 M-1,4 L1,4" stroke="#666" stroke-width="1" fill="none"/>
+    </g>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="900" height="800" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="450" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#2c3e50">
+    Daily Transportation Planner - ENBEL 2025
+  </text>
+  <text x="450" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">
+    October 16-18, 2025 | Optimal timing for conference attendance
+  </text>
+  
+  <!-- Day tabs -->
+  <g id="day-tabs">
+    <rect x="100" y="70" width="200" height="30" fill="#4A90E2" stroke="#2980b9" stroke-width="1" rx="5"/>
+    <text x="200" y="88" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Day 1 - Oct 16</text>
+    
+    <rect x="320" y="70" width="200" height="30" fill="#E8F4F8" stroke="#4A90E2" stroke-width="1" rx="5"/>
+    <text x="420" y="88" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#4A90E2">Day 2 - Oct 17</text>
+    
+    <rect x="540" y="70" width="200" height="30" fill="#E8F4F8" stroke="#4A90E2" stroke-width="1" rx="5"/>
+    <text x="640" y="88" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#4A90E2">Day 3 - Oct 18</text>
+  </g>
+  
+  <!-- Main planner grid -->
+  <rect x="50" y="110" width="800" height="630" fill="white" stroke="#ddd" stroke-width="2" rx="10"/>
+  
+  <!-- Time column header -->
+  <rect x="50" y="110" width="80" height="40" fill="#34495e" rx="10,0,0,0"/>
+  <text x="90" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Time</text>
+  
+  <!-- Activity column header -->
+  <rect x="130" y="110" width="200" height="40" fill="#34495e"/>
+  <text x="230" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Conference Activity</text>
+  
+  <!-- Transport column header -->
+  <rect x="330" y="110" width="180" height="40" fill="#34495e"/>
+  <text x="420" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Best Transport</text>
+  
+  <!-- Departure column header -->
+  <rect x="510" y="110" width="160" height="40" fill="#34495e"/>
+  <text x="590" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Departure Time</text>
+  
+  <!-- Alternative column header -->
+  <rect x="670" y="110" width="180" height="40" fill="#34495e" rx="0,10,0,0"/>
+  <text x="760" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Alternative Route</text>
+  
+  <!-- Morning Session -->
+  <g id="morning-session">
+    <!-- 07:00 -->
+    <rect x="50" y="150" width="80" height="50" fill="#FFE082" stroke="#F57F17" stroke-width="1"/>
+    <text x="90" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#F57F17">07:00</text>
+    
+    <rect x="130" y="150" width="200" height="50" fill="url(#morningGrad)" stroke="#F57F17" stroke-width="1"/>
+    <text x="230" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#E65100">Early Departure</text>
+    <text x="230" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#E65100">Hotel → Breakfast venue</text>
+    
+    <rect x="330" y="150" width="180" height="50" fill="#E8F6F3" stroke="#2E8B57" stroke-width="1"/>
+    <use href="#tram-small" x="355" y="175"/>
+    <text x="375" y="170" font-family="Arial, sans-serif" font-size="10" fill="#2E8B57">Tram Line 1</text>
+    <text x="375" y="183" font-family="Arial, sans-serif" font-size="9" fill="#2E8B57">€2 | 15 min</text>
+    <text x="375" y="195" font-family="Arial, sans-serif" font-size="9" fill="#666">Runs every 10 min</text>
+    
+    <rect x="510" y="150" width="160" height="50" fill="#FFFDE7" stroke="#FBC02D" stroke-width="1"/>
+    <text x="590" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#F57C00">06:45</text>
+    <text x="590" y="183" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#F57C00">From hotel</text>
+    <text x="590" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#F57C00">Allow buffer time</text>
+    
+    <rect x="670" y="150" width="180" height="50" fill="#F3E5F5" stroke="#9C27B0" stroke-width="1"/>
+    <use href="#rideshare-small" x="690" y="175"/>
+    <text x="710" y="170" font-family="Arial, sans-serif" font-size="10" fill="#7B1FA2">Bolt (direct)</text>
+    <text x="710" y="183" font-family="Arial, sans-serif" font-size="9" fill="#7B1FA2">€8-12 | 12 min</text>
+    <text x="710" y="195" font-family="Arial, sans-serif" font-size="9" fill="#666">Pre-book via app</text>
+    
+    <!-- 08:30 -->
+    <rect x="50" y="200" width="80" height="60" fill="#FFF176" stroke="#F9A825" stroke-width="1"/>
+    <text x="90" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#F57F17">08:30</text>
+    
+    <rect x="130" y="200" width="200" height="60" fill="url(#morningGrad)" stroke="#F57F17" stroke-width="1"/>
+    <text x="230" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#E65100">Opening Ceremony</text>
+    <text x="230" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#E65100">PETERSON I Room</text>
+    <text x="230" y="248" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#E65100">Registration & Welcome</text>
+    
+    <rect x="330" y="200" width="180" height="60" fill="#E3F2FD" stroke="#1976D2" stroke-width="1"/>
+    <use href="#bus-small" x="355" y="230"/>
+    <text x="375" y="220" font-family="Arial, sans-serif" font-size="10" fill="#1976D2">Bus #2 + Walk</text>
+    <text x="375" y="233" font-family="Arial, sans-serif" font-size="9" fill="#1976D2">€2 | 20 min total</text>
+    <text x="375" y="245" font-family="Arial, sans-serif" font-size="9" fill="#666">Most economical</text>
+    <text x="375" y="257" font-family="Arial, sans-serif" font-size="9" fill="#666">5 min walk from stop</text>
+    
+    <rect x="510" y="200" width="160" height="60" fill="#E8F5E8" stroke="#4CAF50" stroke-width="1"/>
+    <text x="590" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2E7D32">08:00</text>
+    <text x="590" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2E7D32">Hotel/breakfast</text>
+    <text x="590" y="248" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2E7D32">Allow check-in time</text>
+    
+    <rect x="670" y="200" width="180" height="60" fill="#FCE4EC" stroke="#E91E63" stroke-width="1"/>
+    <use href="#walk-small" x="690" y="230"/>
+    <text x="710" y="220" font-family="Arial, sans-serif" font-size="10" fill="#C2185B">Walking route</text>
+    <text x="710" y="233" font-family="Arial, sans-serif" font-size="9" fill="#C2185B">Free | 25-30 min</text>
+    <text x="710" y="245" font-family="Arial, sans-serif" font-size="9" fill="#666">Via Old Town</text>
+    <text x="710" y="257" font-family="Arial, sans-serif" font-size="9" fill="#666">Scenic but longer</text>
+  </g>
+  
+  <!-- Day Sessions -->
+  <g id="day-sessions">
+    <!-- 10:00 -->
+    <rect x="50" y="260" width="80" height="80" fill="#A5D6A7" stroke="#388E3C" stroke-width="1"/>
+    <text x="90" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2E7D32">10:00</text>
+    
+    <rect x="130" y="260" width="200" height="80" fill="url(#dayGrad)" stroke="#388E3C" stroke-width="1"/>
+    <text x="230" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#1B5E20">Keynote Session</text>
+    <text x="230" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1B5E20">Health & Climate Change</text>
+    <text x="230" y="308" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1B5E20">JAKOBSEN Room</text>
+    <text x="230" y="325" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#666">Coffee break at 11:30</text>
+    
+    <rect x="330" y="260" width="180" height="80" fill="#E1F5FE" stroke="#0277BD" stroke-width="1"/>
+    <text x="420" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#01579B">Already at venue</text>
+    <text x="420" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#01579B">Move between rooms</text>
+    <use href="#walk-small" x="420" y="315"/>
+    <text x="420" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#666">2-3 min walk</text>
+    
+    <rect x="510" y="260" width="160" height="80" fill="#F1F8E9" stroke="#689F38" stroke-width="1"/>
+    <text x="590" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#33691E">-</text>
+    <text x="590" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#33691E">No transport needed</text>
+    <text x="590" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#33691E">Stay at conference</text>
+    
+    <rect x="670" y="260" width="180" height="80" fill="#FFF8E1" stroke="#FFA000" stroke-width="1"/>
+    <text x="760" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#E65100">Coffee break option:</text>
+    <text x="760" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#E65100">Walk to Old Town café</text>
+    <text x="760" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#E65100">10 min walk</text>
+    <text x="760" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#666">Return by 11:50</text>
+  </g>
+  
+  <!-- Lunch Break -->
+  <g id="lunch-session">
+    <rect x="50" y="340" width="80" height="70" fill="#FFCC02" stroke="#FF8F00" stroke-width="1"/>
+    <text x="90" y="380" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#E65100">12:30</text>
+    
+    <rect x="130" y="340" width="200" height="70" fill="#FFF3E0" stroke="#FF8F00" stroke-width="1"/>
+    <text x="230" y="365" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#E65100">Lunch Break</text>
+    <text x="230" y="380" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#E65100">90 minutes</text>
+    <text x="230" y="395" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#E65100">Explore Tallinn</text>
+    
+    <rect x="330" y="340" width="180" height="70" fill="#E8F6F3" stroke="#2E8B57" stroke-width="1"/>
+    <use href="#tram-small" x="355" y="375"/>
+    <text x="375" y="365" font-family="Arial, sans-serif" font-size="10" fill="#2E8B57">Tram to Old Town</text>
+    <text x="375" y="378" font-family="Arial, sans-serif" font-size="9" fill="#2E8B57">€2 | 8 min</text>
+    <text x="375" y="390" font-family="Arial, sans-serif" font-size="9" fill="#666">Traditional restaurants</text>
+    <text x="375" y="402" font-family="Arial, sans-serif" font-size="9" fill="#666">Return: allow 30 min</text>
+    
+    <rect x="510" y="340" width="160" height="70" fill="#FFEBEE" stroke="#F44336" stroke-width="1"/>
+    <text x="590" y="365" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#C62828">12:25</text>
+    <text x="590" y="380" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#C62828">Leave conference</text>
+    <text x="590" y="392" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#C62828">Return by 13:50</text>
+    <text x="590" y="405" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#666">For 14:00 session</text>
+    
+    <rect x="670" y="340" width="180" height="70" fill="#F9FBE7" stroke="#827717" stroke-width="1"/>
+    <text x="760" y="365" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#33691E">Venue restaurant</text>
+    <text x="760" y="378" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#33691E">No transport needed</text>
+    <text x="760" y="390" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#33691E">Quick & convenient</text>
+    <text x="760" y="405" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#666">Networking opportunity</text>
+  </g>
+  
+  <!-- Evening Session -->
+  <g id="evening-session">
+    <rect x="50" y="410" width="80" height="100" fill="#B39DDB" stroke="#5E35B1" stroke-width="1"/>
+    <text x="90" y="465" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#4527A0">18:00</text>
+    
+    <rect x="130" y="410" width="200" height="100" fill="url(#eveningGrad)" stroke="#5E35B1" stroke-width="1"/>
+    <text x="230" y="435" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#311B92">Conference End</text>
+    <text x="230" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#311B92">Networking Reception</text>
+    <text x="230" y="465" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#311B92">PANSO Room</text>
+    <text x="230" y="480" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#311B92">Optional social event</text>
+    <text x="230" y="495" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#666">Until 20:00</text>
+    
+    <rect x="330" y="410" width="180" height="100" fill="#E8EAF6" stroke="#3F51B5" stroke-width="1"/>
+    <use href="#bus-small" x="355" y="445"/>
+    <text x="375" y="435" font-family="Arial, sans-serif" font-size="10" fill="#283593">Multiple options:</text>
+    <text x="375" y="448" font-family="Arial, sans-serif" font-size="9" fill="#283593">Bus #2 to hotel</text>
+    <use href="#tram-small" x="355" y="465"/>
+    <text x="375" y="468" font-family="Arial, sans-serif" font-size="9" fill="#2E8B57">Tram to Old Town</text>
+    <use href="#rideshare-small" x="355" y="485"/>
+    <text x="375" y="488" font-family="Arial, sans-serif" font-size="9" fill="#7B1FA2">Bolt for dinner</text>
+    <text x="375" y="500" font-family="Arial, sans-serif" font-size="9" fill="#666">Evening flexibility</text>
+    
+    <rect x="510" y="410" width="160" height="100" fill="#E0F2F1" stroke="#00695C" stroke-width="1"/>
+    <text x="590" y="435" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#004D40">Variable</text>
+    <text x="590" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#004D40">Depends on plans:</text>
+    <text x="590" y="465" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#004D40">• Hotel: 18:10</text>
+    <text x="590" y="478" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#004D40">• Dinner: 18:30</text>
+    <text x="590" y="491" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#004D40">• Reception: stay</text>
+    
+    <rect x="670" y="410" width="180" height="100" fill="#FFF3E0" stroke="#EF6C00" stroke-width="1"/>
+    <use href="#walk-small" x="690" y="445"/>
+    <text x="710" y="435" font-family="Arial, sans-serif" font-size="10" fill="#BF360C">Evening walk</text>
+    <text x="710" y="448" font-family="Arial, sans-serif" font-size="9" fill="#BF360C">To restaurant district</text>
+    <text x="710" y="460" font-family="Arial, sans-serif" font-size="9" fill="#BF360C">15-20 min walk</text>
+    <text x="710" y="473" font-family="Arial, sans-serif" font-size="9" fill="#666">Scenic route</text>
+    <text x="710" y="485" font-family="Arial, sans-serif" font-size="9" fill="#666">Safe & well-lit</text>
+    <text x="710" y="500" font-family="Arial, sans-serif" font-size="9" fill="#666">Many dining options</text>
+  </g>
+  
+  <!-- Emergency/Delay Information -->
+  <g id="emergency-info">
+    <rect x="50" y="520" width="800" height="80" fill="#FFEBEE" stroke="#F44336" stroke-width="2" rx="8"/>
+    <text x="450" y="540" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#C62828">⚠ Contingency Planning</text>
+    
+    <text x="70" y="560" font-family="Arial, sans-serif" font-size="11" fill="#C62828">Transport Delays:</text>
+    <text x="70" y="575" font-family="Arial, sans-serif" font-size="10" fill="#333">• Allow extra 15 minutes during peak hours (7:30-9:00, 17:00-18:30)</text>
+    <text x="70" y="590" font-family="Arial, sans-serif" font-size="10" fill="#333">• Bolt/Uber as backup (save app & payment method)</text>
+    
+    <text x="450" y="560" font-family="Arial, sans-serif" font-size="11" fill="#C62828">Weather Issues:</text>
+    <text x="450" y="575" font-family="Arial, sans-serif" font-size="10" fill="#333">• Covered stops for most bus/tram routes</text>
+    <text x="450" y="590" font-family="Arial, sans-serif" font-size="10" fill="#333">• Underground passages in city center</text>
+  </g>
+  
+  <!-- Quick Reference -->
+  <g id="quick-reference">
+    <rect x="50" y="610" width="800" height="120" fill="#E8F5E8" stroke="#4CAF50" stroke-width="2" rx="8"/>
+    <text x="450" y="630" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2E7D32">📱 Quick Reference</text>
+    
+    <g id="ref-column1">
+      <text x="70" y="650" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2E7D32">Apps to Download:</text>
+      <text x="70" y="665" font-family="Arial, sans-serif" font-size="10" fill="#333">• Tallinn Transport (tickets)</text>
+      <text x="70" y="680" font-family="Arial, sans-serif" font-size="10" fill="#333">• Bolt (ride-sharing)</text>
+      <text x="70" y="695" font-family="Arial, sans-serif" font-size="10" fill="#333">• Google Maps (offline)</text>
+      <text x="70" y="710" font-family="Arial, sans-serif" font-size="10" fill="#333">• Conference app (schedules)</text>
+    </g>
+    
+    <g id="ref-column2">
+      <text x="300" y="650" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2E7D32">Key Costs:</text>
+      <text x="300" y="665" font-family="Arial, sans-serif" font-size="10" fill="#333">• Single ride: €2</text>
+      <text x="300" y="680" font-family="Arial, sans-serif" font-size="10" fill="#333">• Day ticket: €5</text>
+      <text x="300" y="695" font-family="Arial, sans-serif" font-size="10" fill="#333">• 3-day Tallinn Card: €45</text>
+      <text x="300" y="710" font-family="Arial, sans-serif" font-size="10" fill="#333">• Bolt average: €8-15</text>
+    </g>
+    
+    <g id="ref-column3">
+      <text x="530" y="650" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2E7D32">Operating Hours:</text>
+      <text x="530" y="665" font-family="Arial, sans-serif" font-size="10" fill="#333">• Public transport: 6:00-23:00</text>
+      <text x="530" y="680" font-family="Arial, sans-serif" font-size="10" fill="#333">• Reduced weekend service</text>
+      <text x="530" y="695" font-family="Arial, sans-serif" font-size="10" fill="#333">• Night buses: limited routes</text>
+      <text x="530" y="710" font-family="Arial, sans-serif" font-size="10" fill="#333">• Bolt: 24/7 available</text>
+    </g>
+  </g>
+  
+  <!-- Footer note -->
+  <text x="450" y="770" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d" font-style="italic">
+    Times are approximate. Check real-time schedules via Tallinn Transport app or website.
+  </text>
+</svg>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="700" viewBox="0 0 800 700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Step number circles -->
+    <circle id="step-circle" r="15" fill="#4A90E2" stroke="#2980b9" stroke-width="2"/>
+    
+    <!-- Icons for different transport modes -->
+    <g id="plane-icon">
+      <path d="M-8,-3 L8,-3 L8,0 L3,3 L-3,3 Z" fill="white"/>
+      <circle cx="0" cy="0" r="2" fill="white"/>
+    </g>
+    
+    <g id="bus-icon">
+      <rect x="-8" y="-4" width="16" height="8" rx="2" fill="white"/>
+      <circle cx="-5" cy="2" r="1.5" fill="#FF6B35"/>
+      <circle cx="5" cy="2" r="1.5" fill="#FF6B35"/>
+      <rect x="-6" y="-2" width="3" height="2" fill="#FF6B35"/>
+      <rect x="-1" y="-2" width="3" height="2" fill="#FF6B35"/>
+      <rect x="4" y="-2" width="3" height="2" fill="#FF6B35"/>
+    </g>
+    
+    <g id="phone-icon">
+      <rect x="-4" y="-6" width="8" height="12" rx="2" fill="white"/>
+      <circle cx="0" cy="3" r="1" fill="#4A90E2"/>
+    </g>
+    
+    <g id="card-icon">
+      <rect x="-6" y="-3" width="12" height="6" rx="1" fill="white"/>
+      <rect x="-4" y="-1" width="8" height="1" fill="#4A90E2"/>
+    </g>
+    
+    <g id="walk-icon">
+      <circle cx="0" cy="-5" r="2" fill="white"/>
+      <path d="M-1,-1 L1,-1 L2,4 L1,6 L-1,6 L-2,4 Z" fill="white"/>
+      <path d="M-2,6 L-3,8 M2,6 L3,8" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+    </g>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="700" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#2c3e50">
+    Conference Transportation Guide - Step by Step
+  </text>
+  
+  <text x="400" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">
+    ENBEL 2025: From Airport to Conference Venues
+  </text>
+  
+  <!-- Main guide container -->
+  <rect x="50" y="70" width="700" height="580" fill="white" stroke="#ddd" stroke-width="2" rx="10"/>
+  
+  <!-- Step 1: Airport Arrival -->
+  <g id="step1">
+    <use href="#step-circle" x="100" y="120"/>
+    <text x="100" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">1</text>
+    <use href="#plane-icon" x="100" y="120"/>
+    
+    <text x="130" y="115" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Airport Arrival (TLL)</text>
+    <text x="130" y="130" font-family="Arial, sans-serif" font-size="11" fill="#555">Exit baggage claim and follow signs to "Public Transport"</text>
+    <text x="130" y="145" font-family="Arial, sans-serif" font-size="11" fill="#555">Locate Bus Stop 2 outside Terminal Building</text>
+    
+    <!-- Route options -->
+    <rect x="130" y="155" width="600" height="60" fill="#E8F6F3" stroke="#2E8B57" stroke-width="1" rx="5"/>
+    <text x="140" y="175" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2E8B57">Best Options to City Center:</text>
+    <text x="140" y="190" font-family="Arial, sans-serif" font-size="11" fill="#333">🚌 Bus #2 → Direct to city center (20-25 min) → €2</text>
+    <text x="140" y="205" font-family="Arial, sans-serif" font-size="11" fill="#333">🚗 Bolt/Uber → Direct to conference (15-20 min) → €12-18</text>
+  </g>
+  
+  <!-- Step 2: Payment Setup -->
+  <g id="step2">
+    <use href="#step-circle" x="100" y="260"/>
+    <text x="100" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">2</text>
+    <use href="#phone-icon" x="100" y="260"/>
+    
+    <text x="130" y="255" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Setup Payment Method</text>
+    <text x="130" y="270" font-family="Arial, sans-serif" font-size="11" fill="#555">Choose your preferred payment option before boarding</text>
+    
+    <g id="payment-options">
+      <!-- QR Payment -->
+      <rect x="130" y="280" width="150" height="70" fill="#FFF3CD" stroke="#FFC107" stroke-width="1" rx="3"/>
+      <text x="205" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#856404">QR Tickets</text>
+      <text x="135" y="315" font-family="Arial, sans-serif" font-size="10" fill="#856404">• Download Tallinn app</text>
+      <text x="135" y="328" font-family="Arial, sans-serif" font-size="10" fill="#856404">• Buy ticket in app</text>
+      <text x="135" y="341" font-family="Arial, sans-serif" font-size="10" fill="#856404">• Show QR to driver</text>
+      
+      <!-- Contactless -->
+      <rect x="290" y="280" width="150" height="70" fill="#E3F2FD" stroke="#4A90E2" stroke-width="1" rx="3"/>
+      <text x="365" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#1976D2">Contactless</text>
+      <text x="295" y="315" font-family="Arial, sans-serif" font-size="10" fill="#1976D2">• Tap card on reader</text>
+      <text x="295" y="328" font-family="Arial, sans-serif" font-size="10" fill="#1976D2">• Credit/debit cards</text>
+      <text x="295" y="341" font-family="Arial, sans-serif" font-size="10" fill="#1976D2">• Apple/Google Pay</text>
+      
+      <!-- Tallinn Card -->
+      <rect x="450" y="280" width="150" height="70" fill="#F3E5F5" stroke="#9C27B0" stroke-width="1" rx="3"/>
+      <text x="525" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#7B1FA2">Tallinn Card</text>
+      <text x="455" y="315" font-family="Arial, sans-serif" font-size="10" fill="#7B1FA2">• Unlimited transport</text>
+      <text x="455" y="328" font-family="Arial, sans-serif" font-size="10" fill="#7B1FA2">• Museum entries</text>
+      <text x="455" y="341" font-family="Arial, sans-serif" font-size="10" fill="#7B1FA2">• Best for 2+ days</text>
+    </g>
+  </g>
+  
+  <!-- Step 3: Journey to Conference -->
+  <g id="step3">
+    <use href="#step-circle" x="100" y="400"/>
+    <text x="100" y="405" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">3</text>
+    <use href="#bus-icon" x="100" y="400"/>
+    
+    <text x="130" y="395" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Journey to Conference Venues</text>
+    <text x="130" y="410" font-family="Arial, sans-serif" font-size="11" fill="#555">Follow the route based on your chosen transport method</text>
+    
+    <!-- Route timeline -->
+    <g id="route-timeline">
+      <!-- Bus route -->
+      <rect x="130" y="420" width="280" height="80" fill="#FFE5DB" stroke="#FF6B35" stroke-width="2" rx="5"/>
+      <text x="270" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#D84315">Bus #2 Route (Recommended)</text>
+      <text x="140" y="455" font-family="Arial, sans-serif" font-size="10" fill="#D84315">Airport → Viru Keskus → City Center → Conference Area</text>
+      <text x="140" y="470" font-family="Arial, sans-serif" font-size="10" fill="#333">🕒 Total time: 25-30 minutes</text>
+      <text x="140" y="485" font-family="Arial, sans-serif" font-size="10" fill="#333">💰 Cost: €2 (single trip)</text>
+      
+      <!-- Alternative -->
+      <rect x="420" y="420" width="280" height="80" fill="#E8F5E8" stroke="#4CAF50" stroke-width="2" rx="5"/>
+      <text x="560" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2E7D32">Ride-sharing Alternative</text>
+      <text x="430" y="455" font-family="Arial, sans-serif" font-size="10" fill="#2E7D32">Direct to conference venues</text>
+      <text x="430" y="470" font-family="Arial, sans-serif" font-size="10" fill="#333">🕒 Total time: 15-20 minutes</text>
+      <text x="430" y="485" font-family="Arial, sans-serif" font-size="10" fill="#333">💰 Cost: €12-18</text>
+    </g>
+  </g>
+  
+  <!-- Step 4: Final Approach -->
+  <g id="step4">
+    <use href="#step-circle" x="100" y="540"/>
+    <text x="100" y="545" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">4</text>
+    <use href="#walk-icon" x="100" y="540"/>
+    
+    <text x="130" y="535" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Arrive at Conference Venues</text>
+    <text x="130" y="550" font-family="Arial, sans-serif" font-size="11" fill="#555">Conference rooms: PETERSON I, JAKOBSEN, PANSO, ALVER & ADSON</text>
+    
+    <rect x="130" y="560" width="600" height="50" fill="#F0F8FF" stroke="#4A90E2" stroke-width="1" rx="5"/>
+    <text x="140" y="580" font-family="Arial, sans-serif" font-size="11" fill="#1976D2">📍 Look for ENBEL 2025 signage at venue entrance</text>
+    <text x="140" y="595" font-family="Arial, sans-serif" font-size="11" fill="#1976D2">🚶 All conference rooms within walking distance of each other</text>
+  </g>
+  
+  <!-- Operating Schedule -->
+  <g id="schedule">
+    <rect x="50" y="660" width="700" height="30" fill="#FFF3CD" stroke="#FFC107" stroke-width="1" rx="5"/>
+    <text x="400" y="675" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#856404">
+      ⏰ Public Transport: 6:00-23:00 Daily | 🗓️ Conference Dates: October 16-18, 2025
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradients for visual appeal -->
+    <linearGradient id="airportGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A90E2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#357ABD;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="oldTownGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B4513;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#A0522D;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="conferenceGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2E8B57;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3CB371;stop-opacity:1" />
+    </linearGradient>
+    <!-- Transportation line patterns -->
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333" />
+    </marker>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#2c3e50">
+    Tallinn Transportation Overview - ENBEL 2025
+  </text>
+  
+  <!-- Map container -->
+  <rect x="50" y="50" width="700" height="500" fill="white" stroke="#ddd" stroke-width="2" rx="10"/>
+  
+  <!-- Airport (top right) -->
+  <g id="airport-area">
+    <ellipse cx="650" cy="120" rx="80" ry="40" fill="url(#airportGradient)" stroke="#2980b9" stroke-width="2"/>
+    <text x="650" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Tallinn Airport</text>
+    <text x="650" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">(TLL)</text>
+    <!-- Airport icon -->
+    <path d="M635,105 L665,105 M650,100 L650,110 M645,102 L655,102 M645,108 L655,108" stroke="white" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Old Town (center left) -->
+  <g id="oldtown-area">
+    <rect x="150" y="250" width="100" height="80" rx="15" fill="url(#oldTownGradient)" stroke="#8B4513" stroke-width="2"/>
+    <text x="200" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Old Town</text>
+    <text x="200" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">UNESCO Site</text>
+    <!-- Castle icon -->
+    <rect x="185" y="305" width="30" height="15" fill="white" opacity="0.8"/>
+    <polygon points="185,305 200,295 215,305" fill="white" opacity="0.8"/>
+  </g>
+  
+  <!-- Conference Area (center) -->
+  <g id="conference-area">
+    <rect x="350" y="300" width="120" height="100" rx="15" fill="url(#conferenceGradient)" stroke="#2E8B57" stroke-width="2"/>
+    <text x="410" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Conference</text>
+    <text x="410" y="345" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Venues</text>
+    <text x="410" y="365" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">PETERSON I</text>
+    <text x="410" y="375" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">JAKOBSEN</text>
+    <text x="410" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">PANSO & ALVER</text>
+  </g>
+  
+  <!-- Hotel Area (bottom left) -->
+  <g id="hotel-area">
+    <ellipse cx="150" cy="450" rx="70" ry="35" fill="#E8F4F8" stroke="#4A90E2" stroke-width="2"/>
+    <text x="150" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2980b9">Hotel District</text>
+    <text x="150" y="465" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2980b9">City Center</text>
+  </g>
+  
+  <!-- Transportation Routes -->
+  
+  <!-- Airport to City (Bus 2) -->
+  <line x1="580" y1="130" x2="280" y2="270" stroke="#FF6B35" stroke-width="4" marker-end="url(#arrowhead)" stroke-dasharray="5,5"/>
+  <text x="430" y="190" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#FF6B35">Bus 2</text>
+  <text x="430" y="205" font-family="Arial, sans-serif" font-size="9" fill="#FF6B35">€2 | 20-25 min</text>
+  
+  <!-- Tram Lines (Green) -->
+  <path d="M200,250 Q300,200 450,300" stroke="#2E8B57" stroke-width="3" fill="none"/>
+  <text x="320" y="230" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#2E8B57">Tram Lines 1,2</text>
+  
+  <!-- Trolleybus (Blue) -->
+  <path d="M250,290 L350,320" stroke="#4A90E2" stroke-width="3" fill="none"/>
+  <text x="270" y="310" font-family="Arial, sans-serif" font-size="10" fill="#4A90E2">Trolleybus</text>
+  
+  <!-- Ride-sharing zones -->
+  <circle cx="620" cy="150" r="15" fill="none" stroke="#9B59B6" stroke-width="2" stroke-dasharray="3,3"/>
+  <text x="620" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#9B59B6">Bolt/Uber</text>
+  <text x="620" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#9B59B6">Pickup Zone</text>
+  
+  <!-- Legend -->
+  <g id="legend">
+    <rect x="520" y="400" width="220" height="140" fill="white" stroke="#ddd" stroke-width="1" rx="5"/>
+    <text x="630" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Transportation Legend</text>
+    
+    <!-- Bus -->
+    <line x1="530" y1="435" x2="560" y2="435" stroke="#FF6B35" stroke-width="3"/>
+    <text x="570" y="440" font-family="Arial, sans-serif" font-size="10" fill="#333">Bus (€2/trip)</text>
+    
+    <!-- Tram -->
+    <line x1="530" y1="450" x2="560" y2="450" stroke="#2E8B57" stroke-width="3"/>
+    <text x="570" y="455" font-family="Arial, sans-serif" font-size="10" fill="#333">Tram (€2/trip)</text>
+    
+    <!-- Trolleybus -->
+    <line x1="530" y1="465" x2="560" y2="465" stroke="#4A90E2" stroke-width="3"/>
+    <text x="570" y="470" font-family="Arial, sans-serif" font-size="10" fill="#333">Trolleybus (€2/trip)</text>
+    
+    <!-- Ride-sharing -->
+    <circle cx="545" cy="480" r="8" fill="none" stroke="#9B59B6" stroke-width="2" stroke-dasharray="2,2"/>
+    <text x="570" y="485" font-family="Arial, sans-serif" font-size="10" fill="#333">Ride-sharing zones</text>
+    
+    <!-- Walking -->
+    <path d="M535,495 L555,495" stroke="#666" stroke-width="2" stroke-dasharray="1,2"/>
+    <text x="570" y="500" font-family="Arial, sans-serif" font-size="10" fill="#333">Walking distance</text>
+    
+    <!-- Operating hours -->
+    <text x="530" y="520" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#e74c3c">Hours: 6:00 - 23:00</text>
+    <text x="530" y="535" font-family="Arial, sans-serif" font-size="9" fill="#333">Day ticket available</text>
+  </g>
+  
+  <!-- Key Information Box -->
+  <g id="key-info">
+    <rect x="60" y="400" width="180" height="120" fill="#FFF3CD" stroke="#FFC107" stroke-width="2" rx="5"/>
+    <text x="150" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#856404">Payment Methods</text>
+    
+    <text x="70" y="440" font-family="Arial, sans-serif" font-size="10" fill="#856404">• QR tickets (mobile)</text>
+    <text x="70" y="455" font-family="Arial, sans-serif" font-size="10" fill="#856404">• Contactless cards</text>
+    <text x="70" y="470" font-family="Arial, sans-serif" font-size="10" fill="#856404">• Ühiskaart (Smartcard)</text>
+    <text x="70" y="485" font-family="Arial, sans-serif" font-size="10" fill="#856404">• Tallinn Card (unlimited)</text>
+    
+    <text x="150" y="505" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#856404">+ Museum entries included</text>
+  </g>
+  
+  <!-- Distance indicators -->
+  <text x="400" y="570" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">
+    Compact city • Old Town fully walkable • Conference venues within 2km of city center
+  </text>
+</svg>
