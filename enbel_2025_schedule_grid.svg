@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1400" height="1000" viewBox="0 0 1400 1000" xmlns="http://www.w3.org/2000/svg">
+  <!-- Conference Schedule Background -->
+  <rect width="1400" height="1000" fill="#f8f9fa"/>
+  
+  <!-- Title Section -->
+  <rect x="0" y="0" width="1400" height="100" fill="#2c3e50"/>
+  <text x="700" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="white">
+    ENBEL 2025 Conference Schedule
+  </text>
+  <text x="700" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#ecf0f1">
+    Connecting Health and Climate Change | October 16-18, 2025
+  </text>
+  <text x="700" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#bdc3c7">
+    All times in local Tallinn time (GMT+3)
+  </text>
+  
+  <!-- Day Headers -->
+  <g id="day-headers">
+    <rect x="100" y="120" width="400" height="60" fill="#3498db" stroke="#2980b9" stroke-width="2"/>
+    <text x="300" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">
+      DAY 1 - Thursday, October 16
+    </text>
+    <text x="300" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#ecf0f1">
+      Opening &amp; Foundation Sessions
+    </text>
+    
+    <rect x="500" y="120" width="400" height="60" fill="#27ae60" stroke="#229954" stroke-width="2"/>
+    <text x="700" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">
+      DAY 2 - Friday, October 17
+    </text>
+    <text x="700" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#ecf0f1">
+      Research Presentations &amp; Discussions
+    </text>
+    
+    <rect x="900" y="120" width="400" height="60" fill="#e74c3c" stroke="#c0392b" stroke-width="2"/>
+    <text x="1100" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">
+      DAY 3 - Saturday, October 18
+    </text>
+    <text x="1100" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#ecf0f1">
+      Synthesis &amp; Future Directions
+    </text>
+  </g>
+  
+  <!-- Time Column -->
+  <g id="time-column">
+    <rect x="20" y="180" width="80" height="750" fill="#34495e" opacity="0.1"/>
+    <text x="60" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">
+      TIME
+    </text>
+  </g>
+  
+  <!-- DAY 1 SCHEDULE -->
+  <g id="day1-schedule">
+    <!-- 08:00-08:45 Poster hanging -->
+    <rect x="100" y="220" width="400" height="35" fill="#f39c12" stroke="#e67e22" stroke-width="1" opacity="0.9"/>
+    <text x="20" y="240" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">08:00</text>
+    <text x="110" y="235" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">
+      Poster Setup (Darshnika, Danielle, Mukhtaar)
+    </text>
+    <text x="110" y="248" font-family="Arial, sans-serif" font-size="10" fill="white">
+      JAKOBSEN Room | 08:00-08:45
+    </text>
+    
+    <!-- 08:45-09:00 Conference start -->
+    <rect x="100" y="255" width="400" height="25" fill="#3498db" stroke="#2980b9" stroke-width="1" opacity="0.9"/>
+    <text x="20" y="270" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">08:45</text>
+    <text x="110" y="270" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">
+      Conference Opening &amp; Welcome
+    </text>
+    
+    <!-- 09:00-10:30 Opening Keynote -->
+    <rect x="100" y="280" width="400" height="60" fill="#2980b9" stroke="#21618c" stroke-width="1" opacity="0.9"/>
+    <text x="20" y="305" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">09:00</text>
+    <text x="110" y="300" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">
+      Opening Keynote: Climate-Health Nexus
+    </text>
+    <text x="110" y="315" font-family="Arial, sans-serif" font-size="11" fill="white">
+      PETERSON I Room | 09:00-10:30
+    </text>
+    <text x="110" y="330" font-family="Arial, sans-serif" font-size="10" fill="#ecf0f1">
+      Dr. Sarah Mitchell - WHO Climate Health Lead
+    </text>
+    
+    <!-- 10:30-11:00 Coffee break -->
+    <rect x="100" y="340" width="400" height="30" fill="#e74c3c" stroke="#c0392b" stroke-width="1" opacity="0.9"/>
+    <text x="20" y="358" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">10:30</text>
+    <text x="110" y="358" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">
+      Coffee Break &amp; Networking
+    </text>
+    
+    <!-- 11:00-12:30 Session block -->
+    <rect x="100" y="370" width="400" height="60" fill="#8e44ad" stroke="#7d3c98" stroke-width="1" opacity="0.9"/>
+    <text x="20" y="395" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">11:00</text>
+    <text x="110" y="390" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">
+      Health System Resilience Panel
+    </text>
+    <text x="110" y="405" font-family="Arial, sans-serif" font-size="11" fill="white">
+      PETERSON I Room | 11:00-12:30
+    </text>
+    <text x="110" y="420" font-family="Arial, sans-serif" font-size="10" fill="#ecf0f1">
+      Climate-resilient health systems worldwide
+    </text>
+    
+    <!-- 12:30-13:30 Lunch -->
+    <rect x="100" y="430" width="400" height="40" fill="#f39c12" stroke="#e67e22" stroke-width="1" opacity="0.9"/>
+    <text x="20" y="452" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">12:30</text>
+    <text x="110" y="448" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">
+      Lunch &amp; Poster Viewing
+    </text>
+    <text x="110" y="460" font-family="Arial, sans-serif" font-size="10" fill="white">
+      JAKOBSEN Room | 12:30-13:30
+    </text>
+    
+    <!-- 14:00-15:00 Poster session -->
+    <rect x="100" y="470" width="400" height="50" fill="#f39c12" stroke="#e67e22" stroke-width="1" opacity="0.9"/>
+    <text x="20" y="492" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">14:00</text>
+    <text x="110" y="485" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">
+      Poster Session 1: Vulnerability &amp; Modeling
+    </text>
+    <text x="110" y="498" font-family="Arial, sans-serif" font-size="10" fill="white">
+      14:00 Heat Vulnerability (Darshnika)
+    </text>
+    <text x="110" y="510" font-family="Arial, sans-serif" font-size="10" fill="white">
+      14:30 Quantifying Climate Change (Mukhtaar)
+    </text>
+    
+    <!-- 15:00-15:30 Coffee -->
+    <rect x="100" y="520" width="400" height="30" fill="#e74c3c" stroke="#c0392b" stroke-width="1" opacity="0.9"/>
+    <text x="20" y="538" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">15:00</text>
+    <text x="110" y="538" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">
+      Coffee Break
+    </text>
+    
+    <!-- 15:30-17:00 Parallel sessions -->
+    <rect x="100" y="550" width="195" height="60" fill="#9b59b6" stroke="#8e44ad" stroke-width="1" opacity="0.9"/>
+    <text x="20" y="575" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">15:30</text>
+    <text x="110" y="570" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">
+      Vulnerability Assessment
+    </text>
+    <text x="110" y="583" font-family="Arial, sans-serif" font-size="9" fill="white">
+      PETERSON I | Lebohang
+    </text>
+    <text x="110" y="595" font-family="Arial, sans-serif" font-size="9" fill="#ecf0f1">
+      15:30-17:00
+    </text>
+    
+    <rect x="305" y="550" width="195" height="60" fill="#27ae60" stroke="#229954" stroke-width="1" opacity="0.9"/>
+    <text x="315" y="570" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">
+      Climate Modeling
+    </text>
+    <text x="315" y="583" font-family="Arial, sans-serif" font-size="9" fill="white">
+      PANSO Room | Craig
+    </text>
+    <text x="315" y="595" font-family="Arial, sans-serif" font-size="9" fill="#ecf0f1">
+      15:30-17:00
+    </text>
+    
+    <!-- 17:00-18:00 Poster viewing -->
+    <rect x="100" y="610" width="400" height="40" fill="#f39c12" stroke="#e67e22" stroke-width="1" opacity="0.9"/>
+    <text x="20" y="632" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">17:00</text>
+    <text x="110" y="628" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">
+      Poster Viewing &amp; Networking
+    </text>
+    <text x="110" y="640" font-family="Arial, sans-serif" font-size="10" fill="white">
+      JAKOBSEN Room | 17:00-18:00
+    </text>
+    
+    <!-- 19:30-23:59 Conference dinner -->
+    <rect x="100" y="650" width="400" height="50" fill="#e67e22" stroke="#d35400" stroke-width="1" opacity="0.9"/>
+    <text x="20" y="672" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">19:30</text>
+    <text x="110" y="668" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">
+      Conference Dinner &amp; Social Evening
+    </text>
+    <text x="110" y="680" font-family="Arial, sans-serif" font-size="10" fill="white">
+      PETERSON I Room | 19:30-23:59
+    </text>
+    <text x="110" y="692" font-family="Arial, sans-serif" font-size="10" fill="#ecf0f1">
+      Estonian cultural program included
+    </text>
+  </g>
+  
+  <!-- DAY 2 SCHEDULE -->
+  <g id="day2-schedule">
+    <!-- 09:00-10:30 Keynote -->
+    <rect x="500" y="280" width="400" height="60" fill="#2980b9" stroke="#21618c" stroke-width="1" opacity="0.9"/>
+    <text x="510" y="300" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">
+      Keynote: One Health Approaches
+    </text>
+    <text x="510" y="315" font-family="Arial, sans-serif" font-size="11" fill="white">
+      PETERSON I Room | 09:00-10:30
+    </text>
+    <text x="510" y="330" font-family="Arial, sans-serif" font-size="10" fill="#ecf0f1">
+      Prof. Elena Rodriguez - Global One Health Alliance
+    </text>
+    
+    <!-- 10:30-11:00 Coffee -->
+    <rect x="500" y="340" width="400" height="30" fill="#e74c3c" stroke="#c0392b" stroke-width="1" opacity="0.9"/>
+    <text x="510" y="358" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">
+      Coffee Break
+    </text>
+    
+    <!-- 11:00-12:30 Attribution symposium -->
+    <rect x="500" y="370" width="400" height="60" fill="#8e44ad" stroke="#7d3c98" stroke-width="1" opacity="0.9"/>
+    <text x="510" y="390" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">
+      Attribution Science Symposium
+    </text>
+    <text x="510" y="405" font-family="Arial, sans-serif" font-size="11" fill="white">
+      PETERSON I Room | Matthew, Cathal
+    </text>
+    <text x="510" y="420" font-family="Arial, sans-serif" font-size="10" fill="#ecf0f1">
+      Climate attribution methods &amp; applications
+    </text>
+    
+    <!-- 12:30-13:30 Lunch -->
+    <rect x="500" y="430" width="400" height="40" fill="#f39c12" stroke="#e67e22" stroke-width="1" opacity="0.9"/>
+    <text x="510" y="448" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">
+      Lunch &amp; Poster Viewing
+    </text>
+    <text x="510" y="460" font-family="Arial, sans-serif" font-size="10" fill="white">
+      JAKOBSEN Room | 12:30-13:30
+    </text>
+    
+    <!-- 13:30-15:00 Parallel sessions -->
+    <rect x="500" y="470" width="130" height="60" fill="#9b59b6" stroke="#8e44ad" stroke-width="1" opacity="0.9"/>
+    <text x="510" y="488" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">
+      Mental Health
+    </text>
+    <text x="510" y="500" font-family="Arial, sans-serif" font-size="9" fill="white">
+      PETERSON I
+    </text>
+    <text x="510" y="512" font-family="Arial, sans-serif" font-size="9" fill="white">
+      Celeste
+    </text>
+    <text x="510" y="524" font-family="Arial, sans-serif" font-size="8" fill="#ecf0f1">
+      13:30-15:00
+    </text>
+    
+    <rect x="635" y="470" width="130" height="60" fill="#27ae60" stroke="#229954" stroke-width="1" opacity="0.9"/>
+    <text x="645" y="488" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">
+      Nature Solutions
+    </text>
+    <text x="645" y="500" font-family="Arial, sans-serif" font-size="9" fill="white">
+      ALVER &amp; ADSON
+    </text>
+    <text x="645" y="512" font-family="Arial, sans-serif" font-size="9" fill="white">
+      Nicholas
+    </text>
+    <text x="645" y="524" font-family="Arial, sans-serif" font-size="8" fill="#ecf0f1">
+      13:30-15:00
+    </text>
+    
+    <rect x="770" y="470" width="130" height="60" fill="#e67e22" stroke="#d35400" stroke-width="1" opacity="0.9"/>
+    <text x="780" y="488" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">
+      Social Justice
+    </text>
+    <text x="780" y="500" font-family="Arial, sans-serif" font-size="9" fill="white">
+      PANSO Room
+    </text>
+    <text x="780" y="512" font-family="Arial, sans-serif" font-size="9" fill="white">
+      Natasha
+    </text>
+    <text x="780" y="524" font-family="Arial, sans-serif" font-size="8" fill="#ecf0f1">
+      13:30-15:00
+    </text>
+    
+    <!-- 15:00-16:00 Poster + coffee -->
+    <rect x="500" y="530" width="400" height="40" fill="#f39c12" stroke="#e67e22" stroke-width="1" opacity="0.9"/>
+    <text x="510" y="548" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">
+      Poster Session 2 &amp; Coffee
+    </text>
+    <text x="510" y="560" font-family="Arial, sans-serif" font-size="10" fill="white">
+      JAKOBSEN Room | 15:00-16:00
+    </text>
+    
+    <!-- 16:00-17:00 Plenary discussion -->
+    <rect x="500" y="570" width="400" height="40" fill="#2980b9" stroke="#21618c" stroke-width="1" opacity="0.9"/>
+    <text x="510" y="588" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">
+      Plenary Discussion: Synthesis
+    </text>
+    <text x="510" y="600" font-family="Arial, sans-serif" font-size="10" fill="white">
+      PETERSON I Room | 16:00-17:00
+    </text>
+    
+    <!-- 17:00-17:15 Closing -->
+    <rect x="500" y="610" width="400" height="25" fill="#e74c3c" stroke="#c0392b" stroke-width="1" opacity="0.9"/>
+    <text x="510" y="625" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">
+      Day 2 Closing
+    </text>
+    
+    <!-- 17:15-18:00 Poster removal -->
+    <rect x="500" y="635" width="400" height="30" fill="#95a5a6" stroke="#7f8c8d" stroke-width="1" opacity="0.9"/>
+    <text x="510" y="653" font-family="Arial, sans-serif" font-size="11" fill="white">
+      Poster Removal &amp; Setup for Day 3
+    </text>
+  </g>
+  
+  <!-- DAY 3 SCHEDULE -->
+  <g id="day3-schedule">
+    <!-- 09:00-10:30 Future Directions Keynote -->
+    <rect x="900" y="280" width="400" height="60" fill="#2980b9" stroke="#21618c" stroke-width="1" opacity="0.9"/>
+    <text x="910" y="300" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">
+      Keynote: Future of Climate Health
+    </text>
+    <text x="910" y="315" font-family="Arial, sans-serif" font-size="11" fill="white">
+      PETERSON I Room | 09:00-10:30
+    </text>
+    <text x="910" y="330" font-family="Arial, sans-serif" font-size="10" fill="#ecf0f1">
+      Dr. James Chen - IPCC Health Chapter Lead
+    </text>
+    
+    <!-- 10:30-11:00 Coffee -->
+    <rect x="900" y="340" width="400" height="30" fill="#e74c3c" stroke="#c0392b" stroke-width="1" opacity="0.9"/>
+    <text x="910" y="358" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">
+      Coffee Break
+    </text>
+    
+    <!-- 11:00-12:30 Workshop -->
+    <rect x="900" y="370" width="400" height="60" fill="#27ae60" stroke="#229954" stroke-width="1" opacity="0.9"/>
+    <text x="910" y="390" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">
+      Interactive Workshop: Action Planning
+    </text>
+    <text x="910" y="405" font-family="Arial, sans-serif" font-size="11" fill="white">
+      ALVER &amp; ADSON Room | 11:00-12:30
+    </text>
+    <text x="910" y="420" font-family="Arial, sans-serif" font-size="10" fill="#ecf0f1">
+      Collaborative future research priorities
+    </text>
+    
+    <!-- 12:30-13:30 Lunch -->
+    <rect x="900" y="430" width="400" height="40" fill="#f39c12" stroke="#e67e22" stroke-width="1" opacity="0.9"/>
+    <text x="910" y="448" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">
+      Lunch &amp; Final Networking
+    </text>
+    <text x="910" y="460" font-family="Arial, sans-serif" font-size="10" fill="white">
+      JAKOBSEN Room | 12:30-13:30
+    </text>
+    
+    <!-- 13:30-15:00 Panel -->
+    <rect x="900" y="470" width="400" height="60" fill="#8e44ad" stroke="#7d3c98" stroke-width="1" opacity="0.9"/>
+    <text x="910" y="490" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">
+      Policy &amp; Implementation Panel
+    </text>
+    <text x="910" y="505" font-family="Arial, sans-serif" font-size="11" fill="white">
+      PETERSON I Room | 13:30-15:00
+    </text>
+    <text x="910" y="520" font-family="Arial, sans-serif" font-size="10" fill="#ecf0f1">
+      From research to policy implementation
+    </text>
+    
+    <!-- 15:00-15:30 Coffee -->
+    <rect x="900" y="530" width="400" height="30" fill="#e74c3c" stroke="#c0392b" stroke-width="1" opacity="0.9"/>
+    <text x="910" y="548" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">
+      Final Coffee Break
+    </text>
+    
+    <!-- 15:30-16:30 Closing session -->
+    <rect x="900" y="560" width="400" height="50" fill="#2980b9" stroke="#21618c" stroke-width="1" opacity="0.9"/>
+    <text x="910" y="580" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">
+      Closing Ceremony &amp; Next Steps
+    </text>
+    <text x="910" y="592" font-family="Arial, sans-serif" font-size="11" fill="white">
+      PETERSON I Room | 15:30-16:30
+    </text>
+    <text x="910" y="604" font-family="Arial, sans-serif" font-size="10" fill="#ecf0f1">
+      Conference synthesis &amp; future collaborations
+    </text>
+    
+    <!-- 16:30-17:00 Departure -->
+    <rect x="900" y="610" width="400" height="40" fill="#95a5a6" stroke="#7f8c8d" stroke-width="1" opacity="0.9"/>
+    <text x="910" y="628" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">
+      Departure &amp; Safe Travels
+    </text>
+    <text x="910" y="640" font-family="Arial, sans-serif" font-size="10" fill="white">
+      Final goodbyes &amp; contact exchange
+    </text>
+  </g>
+  
+  <!-- Legend -->
+  <g id="schedule-legend">
+    <rect x="50" y="750" width="1300" height="200" fill="white" stroke="#bdc3c7" stroke-width="2"/>
+    <text x="70" y="775" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">
+      Schedule Legend &amp; Key Information
+    </text>
+    
+    <!-- Session type legend -->
+    <rect x="70" y="790" width="20" height="15" fill="#2980b9"/>
+    <text x="100" y="802" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Keynote/Plenary</text>
+    
+    <rect x="70" y="810" width="20" height="15" fill="#8e44ad"/>
+    <text x="100" y="822" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Symposium/Panel</text>
+    
+    <rect x="70" y="830" width="20" height="15" fill="#9b59b6"/>
+    <text x="100" y="842" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Parallel Session A</text>
+    
+    <rect x="70" y="850" width="20" height="15" fill="#27ae60"/>
+    <text x="100" y="862" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Parallel Session B/Workshop</text>
+    
+    <rect x="250" y="790" width="20" height="15" fill="#e67e22"/>
+    <text x="280" y="802" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Parallel Session C</text>
+    
+    <rect x="250" y="810" width="20" height="15" fill="#f39c12"/>
+    <text x="280" y="822" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Poster Session</text>
+    
+    <rect x="250" y="830" width="20" height="15" fill="#e74c3c"/>
+    <text x="280" y="842" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Coffee Break</text>
+    
+    <rect x="250" y="850" width="20" height="15" fill="#95a5a6"/>
+    <text x="280" y="862" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Setup/Admin</text>
+    
+    <!-- Key participants -->
+    <text x="450" y="802" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2c3e50">
+      Key Participants:
+    </text>
+    <text x="450" y="817" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      Darshnika, Danielle, Mukhtaar (Posters) | Lebohang, Craig (Parallel Sessions)
+    </text>
+    <text x="450" y="832" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      Matthew, Cathal (Attribution) | Celeste, Nicholas, Natasha (Day 2 Parallels)
+    </text>
+    
+    <!-- Important notes -->
+    <text x="450" y="855" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2c3e50">
+      Important Notes:
+    </text>
+    <text x="450" y="870" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Please arrive 15 minutes early for your sessions
+    </text>
+    <text x="450" y="885" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Poster presenters: Setup 08:00-08:45 Day 1, Remove after Day 2
+    </text>
+    <text x="450" y="900" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • All sessions will be recorded (with permission)
+    </text>
+    <text x="450" y="915" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Conference app available for real-time updates
+    </text>
+    
+    <!-- Contact info -->
+    <text x="850" y="802" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2c3e50">
+      Conference Support:
+    </text>
+    <text x="850" y="817" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      Registration Desk: PETERSON II Room (08:00-17:00 daily)
+    </text>
+    <text x="850" y="832" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      Technical Support: +372 1234 5678
+    </text>
+    <text x="850" y="847" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      Medical Emergency: 112
+    </text>
+    <text x="850" y="862" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      Conference Email: info@enbel2025.ee
+    </text>
+    
+    <!-- Social media -->
+    <text x="850" y="885" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      #ENBEL2025 | @ENBELConference
+    </text>
+  </g>
+</svg>

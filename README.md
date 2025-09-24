@@ -1,20 +1,31 @@
 # Tallinn Conference Trip Itinerary
 
-This repository contains a detailed itinerary for a conference trip to Tallinn, Estonia in October.
+This repository contains a detailed itinerary for the **ENBEL 2025 Conference: Connecting Health and Climate Change** in Tallinn, Estonia, October 16-18, 2025.
 
 ## Overview
 
-The itinerary is designed to provide a well-rounded experience, balancing conference attendance with opportunities to explore the city of Tallinn. It includes:
+The itinerary is designed to provide a well-rounded experience for attending the ENBEL 2025 transdisciplinary conference on climate change and health research. It includes:
 
-*   A detailed daily schedule.
-*   Information about the conference, including the schedule and a list of attendees.
-*   Research on Tallinn, including notable attractions and restaurant recommendations.
+*   A detailed 3-day conference schedule with verified information
+*   Professional transportation and venue navigation visualizations
+*   Research on Tallinn attractions, restaurants, and practical travel information
+*   Interactive conference maps and schedule guides
+*   Current developments in Estonia (2024-2025) for context
 
 ## Folder Structure
 
-*   `itinerary/`: Contains the daily schedule in Markdown files.
-*   `conference_info/`: Contains information about the conference.
-*   `research/`: Contains research about Tallinn.
+*   `itinerary/`: Contains the daily schedule in Markdown files
+*   `conference_info/`: Contains verified ENBEL 2025 conference information, schedule, and attendees
+*   `research/`: Contains comprehensive research about Tallinn including attractions, restaurants, transportation
+*   **Transportation Visualizations:**
+    *   `tallinn_transportation_overview.svg` - Complete transportation map and guide
+    *   `conference_transportation_guide.svg` - Step-by-step airport-to-venue routing
+    *   `daily_transportation_planner.svg` - Schedule-integrated transport planning
+*   **Conference Navigation Visualizations:**
+    *   `enbel_2025_venue_floor_plan.svg` - Professional venue layout and navigation
+    *   `enbel_2025_schedule_grid.svg` - Interactive 3-day schedule visualization  
+    *   `enbel_2025_navigation_guide.svg` - Complete conference navigation reference
+*   `estonia_current_developments_2024-2025.md` - Current Estonian context and news
 
 ## How to Use
 

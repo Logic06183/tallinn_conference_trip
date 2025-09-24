@@ -1,4 +1,10 @@
-# Conference Schedule
+# ENBEL 2025 Conference Schedule: Connecting Health and Climate Change
+
+**Conference:** ENBEL 2025 - Connecting Health and Climate Change  
+**Dates:** October 16-18, 2025  
+**Location:** Tallinn, Estonia  
+**Organizers:** University of Tartu, UMEÅ University & CICERO  
+**Website:** www.enbel2025.ee
 
 ## DAY 1: THURSDAY, 16th October
 
@@ -31,3 +37,34 @@
 | 16:00-17:00   | PLENARY DISCUSSION                       |                    | PETERSON I Room |
 | 17:00-17:15   | Conference Closing & Concluding Words    |                    | PETERSON I Room |
 | 17:15-18:00   | Poster Removal                           |                    | JAKOBSEN Room   |
+
+## DAY 3: SATURDAY, 18th October
+
+| Time          | What                                     | Who                | Where           |
+|---------------|------------------------------------------|--------------------|-----------------|
+| 09:00-10:30   | PLENARY: Nature-based Solutions          |                    | PETERSON I Room |
+| 10:30-11:00   | COFFEE BREAK                             |                    | PETERSON II Room|
+| 11:00-12:30   | WORKSHOPS: Community-led Solutions       |                    | ALVER & ADSON Room |
+| 12:30-13:30   | LUNCH                                    |                    | JAKOBSEN Room   |
+| 13:30-15:00   | PANEL: Climate Resilient Health Systems |                    | PETERSON I Room |
+| 15:00-15:30   | COFFEE BREAK                             |                    | PETERSON II Room|
+| 15:30-17:00   | FINAL PLENARY & CONFERENCE CONCLUSIONS   |                    | PETERSON I Room |
+| 17:00-17:30   | Conference Wrap-up & Next Steps          |                    | PETERSON I Room |
+
+## Conference Topics
+
+The ENBEL 2025 conference focuses on transdisciplinary research collaboration across climate and health knowledge communities, covering:
+
+- Social justice and inequalities
+- Health impact and adaptation
+- One Health approach  
+- Nature-based solutions
+- Climate resilient health systems
+- Climate change and mental health
+- Community-led solutions
+
+## Contact Information
+
+- **Program inquiries:** Marilin Poogen (marilin.poogen@ut.ee)
+- **Travel/lodging:** Krista Kaufmann (incoming.team@estravel.ee)
+- **Abstract submission deadline:** April 27, 2025

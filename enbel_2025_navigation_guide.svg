@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="1400" viewBox="0 0 1200 1400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Conference Navigation Guide Background -->
+  <rect width="1200" height="1400" fill="#f8f9fa"/>
+  
+  <!-- Title Section -->
+  <rect x="0" y="0" width="1200" height="80" fill="#2c3e50"/>
+  <text x="600" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="white">
+    ENBEL 2025 Conference Navigation Guide
+  </text>
+  <text x="600" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#ecf0f1">
+    Essential Information for Attendees | October 16-18, 2025
+  </text>
+  
+  <!-- Quick Reference Card -->
+  <g id="quick-reference">
+    <rect x="50" y="100" width="1100" height="180" fill="#34495e" stroke="#2c3e50" stroke-width="2"/>
+    <text x="70" y="125" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">
+      QUICK REFERENCE CARD - Keep This Handy!
+    </text>
+    
+    <!-- Emergency Contacts -->
+    <rect x="70" y="140" width="250" height="120" fill="#e74c3c" stroke="#c0392b" stroke-width="1" opacity="0.9"/>
+    <text x="195" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">
+      EMERGENCY CONTACTS
+    </text>
+    <text x="80" y="180" font-family="Arial, sans-serif" font-size="11" fill="white">
+      Medical Emergency: 112
+    </text>
+    <text x="80" y="195" font-family="Arial, sans-serif" font-size="11" fill="white">
+      Police: 110
+    </text>
+    <text x="80" y="210" font-family="Arial, sans-serif" font-size="11" fill="white">
+      Conference Help: +372 1234 5678
+    </text>
+    <text x="80" y="225" font-family="Arial, sans-serif" font-size="11" fill="white">
+      Venue Security: +372 9876 5432
+    </text>
+    <text x="80" y="240" font-family="Arial, sans-serif" font-size="11" fill="white">
+      Info Desk: PETERSON II Room
+    </text>
+    
+    <!-- Venue Essentials -->
+    <rect x="340" y="140" width="250" height="120" fill="#3498db" stroke="#2980b9" stroke-width="1" opacity="0.9"/>
+    <text x="465" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">
+      VENUE ESSENTIALS
+    </text>
+    <text x="350" y="180" font-family="Arial, sans-serif" font-size="11" fill="white">
+      WiFi: ENBEL2025
+    </text>
+    <text x="350" y="195" font-family="Arial, sans-serif" font-size="11" fill="white">
+      Password: HealthClimate
+    </text>
+    <text x="350" y="210" font-family="Arial, sans-serif" font-size="11" fill="white">
+      Registration: 08:00-17:00 daily
+    </text>
+    <text x="350" y="225" font-family="Arial, sans-serif" font-size="11" fill="white">
+      All rooms wheelchair accessible
+    </text>
+    <text x="350" y="240" font-family="Arial, sans-serif" font-size="11" fill="white">
+      Quiet room: ALVER side office
+    </text>
+    
+    <!-- Key Times -->
+    <rect x="610" y="140" width="250" height="120" fill="#27ae60" stroke="#229954" stroke-width="1" opacity="0.9"/>
+    <text x="735" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">
+      KEY DAILY TIMES
+    </text>
+    <text x="620" y="180" font-family="Arial, sans-serif" font-size="11" fill="white">
+      Registration Opens: 08:00
+    </text>
+    <text x="620" y="195" font-family="Arial, sans-serif" font-size="11" fill="white">
+      First Session: 08:45/09:00
+    </text>
+    <text x="620" y="210" font-family="Arial, sans-serif" font-size="11" fill="white">
+      Lunch: 12:30-13:30
+    </text>
+    <text x="620" y="225" font-family="Arial, sans-serif" font-size="11" fill="white">
+      Coffee Breaks: 10:30 &amp; 15:00
+    </text>
+    <text x="620" y="240" font-family="Arial, sans-serif" font-size="11" fill="white">
+      Daily Close: 17:00/16:30
+    </text>
+    
+    <!-- Social Media -->
+    <rect x="880" y="140" width="250" height="120" fill="#9b59b6" stroke="#8e44ad" stroke-width="1" opacity="0.9"/>
+    <text x="1005" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">
+      STAY CONNECTED
+    </text>
+    <text x="890" y="180" font-family="Arial, sans-serif" font-size="11" fill="white">
+      #ENBEL2025
+    </text>
+    <text x="890" y="195" font-family="Arial, sans-serif" font-size="11" fill="white">
+      @ENBELConference
+    </text>
+    <text x="890" y="210" font-family="Arial, sans-serif" font-size="11" fill="white">
+      Conference App: ENBEL2025
+    </text>
+    <text x="890" y="225" font-family="Arial, sans-serif" font-size="11" fill="white">
+      Live updates &amp; networking
+    </text>
+    <text x="890" y="240" font-family="Arial, sans-serif" font-size="11" fill="white">
+      info@enbel2025.ee
+    </text>
+  </g>
+  
+  <!-- Detailed Room Navigation -->
+  <g id="room-navigation">
+    <rect x="50" y="300" width="1100" height="280" fill="white" stroke="#bdc3c7" stroke-width="2"/>
+    <text x="70" y="325" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">
+      ROOM-BY-ROOM NAVIGATION GUIDE
+    </text>
+    
+    <!-- Peterson I detailed info -->
+    <rect x="70" y="340" width="260" height="110" fill="#3498db" stroke="#2980b9" stroke-width="1" opacity="0.1"/>
+    <text x="200" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">
+      PETERSON I ROOM
+    </text>
+    <text x="80" y="378" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Main entrance: Front lobby, turn left
+    </text>
+    <text x="80" y="392" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Capacity: 200 (theater style)
+    </text>
+    <text x="80" y="406" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • AV: Full projection, sound, recording
+    </text>
+    <text x="80" y="420" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Sessions: All keynotes, plenary, parallel A
+    </text>
+    <text x="80" y="434" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Transit time to other rooms: 2-5 mins
+    </text>
+    
+    <!-- Peterson II detailed info -->
+    <rect x="350" y="340" width="180" height="110" fill="#e74c3c" stroke="#c0392b" stroke-width="1" opacity="0.1"/>
+    <text x="440" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">
+      PETERSON II
+    </text>
+    <text x="360" y="378" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Next to Peterson I
+    </text>
+    <text x="360" y="392" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Coffee service station
+    </text>
+    <text x="360" y="406" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Registration desk
+    </text>
+    <text x="360" y="420" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Networking space
+    </text>
+    <text x="360" y="434" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Open 08:00-17:00
+    </text>
+    
+    <!-- Jakobsen detailed info -->
+    <rect x="550" y="340" width="190" height="110" fill="#f39c12" stroke="#e67e22" stroke-width="1" opacity="0.1"/>
+    <text x="645" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">
+      JAKOBSEN ROOM
+    </text>
+    <text x="560" y="378" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Far right from main entrance
+    </text>
+    <text x="560" y="392" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Poster display area
+    </text>
+    <text x="560" y="406" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Lunch service location
+    </text>
+    <text x="560" y="420" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Exhibition space
+    </text>
+    <text x="560" y="434" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Storage for poster setup
+    </text>
+    
+    <!-- Panso detailed info -->
+    <rect x="70" y="460" width="180" height="110" fill="#9b59b6" stroke="#8e44ad" stroke-width="1" opacity="0.1"/>
+    <text x="160" y="480" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">
+      PANSO ROOM
+    </text>
+    <text x="80" y="498" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Lower level, stairs down
+    </text>
+    <text x="80" y="512" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Classroom style (60 seats)
+    </text>
+    <text x="80" y="526" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Small group sessions
+    </text>
+    <text x="80" y="540" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Craig's modeling session
+    </text>
+    <text x="80" y="554" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Elevator access available
+    </text>
+    
+    <!-- Alver &amp; Adson detailed info -->
+    <rect x="270" y="460" width="200" height="110" fill="#27ae60" stroke="#229954" stroke-width="1" opacity="0.1"/>
+    <text x="370" y="480" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">
+      ALVER &amp; ADSON
+    </text>
+    <text x="280" y="498" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Main level, center-right
+    </text>
+    <text x="280" y="512" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • U-shape setup (80 seats)
+    </text>
+    <text x="280" y="526" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Workshop space
+    </text>
+    <text x="280" y="540" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Nicholas's nature solutions
+    </text>
+    <text x="280" y="554" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Day 3 action planning
+    </text>
+    
+    <!-- Navigation timing -->
+    <rect x="490" y="460" width="280" height="110" fill="#34495e" stroke="#2c3e50" stroke-width="1" opacity="0.1"/>
+    <text x="630" y="480" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">
+      NAVIGATION TIMING
+    </text>
+    <text x="500" y="498" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Peterson I ↔ Peterson II: 1 minute
+    </text>
+    <text x="500" y="512" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Peterson I → Jakobsen: 3 minutes
+    </text>
+    <text x="500" y="526" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Peterson I → Panso: 4 minutes (stairs)
+    </text>
+    <text x="500" y="540" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Peterson I → Alver &amp; Adson: 2 minutes
+    </text>
+    <text x="500" y="554" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Jakobsen → Any room: 3-5 minutes
+    </text>
+    
+    <!-- Key presenter locations -->
+    <rect x="790" y="460" width="290" height="110" fill="#e67e22" stroke="#d35400" stroke-width="1" opacity="0.1"/>
+    <text x="935" y="480" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">
+      KEY PRESENTER LOCATIONS
+    </text>
+    <text x="800" y="498" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Darshnika, Danielle, Mukhtaar → Jakobsen
+    </text>
+    <text x="800" y="512" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Lebohang (Vulnerability) → Peterson I
+    </text>
+    <text x="800" y="526" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Craig (Modeling) → Panso Room
+    </text>
+    <text x="800" y="540" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Celeste, Nicholas, Natasha → Various Day 2
+    </text>
+    <text x="800" y="554" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Matthew, Cathal → Peterson I (Attribution)
+    </text>
+  </g>
+  
+  <!-- Daily Logistics -->
+  <g id="daily-logistics">
+    <rect x="50" y="600" width="1100" height="200" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="2"/>
+    <text x="70" y="625" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">
+      DAILY LOGISTICS &amp; PRACTICAL INFORMATION
+    </text>
+    
+    <!-- Day 1 logistics -->
+    <rect x="70" y="640" width="340" height="140" fill="#3498db" stroke="#2980b9" stroke-width="1" opacity="0.2"/>
+    <text x="240" y="660" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">
+      DAY 1 - OCTOBER 16 (THURSDAY)
+    </text>
+    <text x="80" y="680" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">
+      ARRIVAL CHECKLIST:
+    </text>
+    <text x="80" y="695" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      ✓ Register at Peterson II desk (08:00-17:00)
+    </text>
+    <text x="80" y="708" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      ✓ Collect name badge, program, conference bag
+    </text>
+    <text x="80" y="721" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      ✓ Download conference app (QR code at desk)
+    </text>
+    <text x="80" y="734" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      ✓ Poster presenters: Setup 08:00-08:45
+    </text>
+    <text x="80" y="747" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      ✓ Conference dinner RSVP check
+    </text>
+    <text x="80" y="760" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      ✓ Emergency contact card (keep in badge holder)
+    </text>
+    
+    <!-- Day 2 logistics -->
+    <rect x="430" y="640" width="340" height="140" fill="#27ae60" stroke="#229954" stroke-width="1" opacity="0.2"/>
+    <text x="600" y="660" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">
+      DAY 2 - OCTOBER 17 (FRIDAY)
+    </text>
+    <text x="440" y="680" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">
+      RESEARCH FOCUS DAY:
+    </text>
+    <text x="440" y="695" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Multiple parallel sessions - plan your route
+    </text>
+    <text x="440" y="708" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Poster Session 2: 15:00-16:00 (Jakobsen)
+    </text>
+    <text x="440" y="721" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Attribution symposium: Matthew &amp; Cathal
+    </text>
+    <text x="440" y="734" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Room changes: Allow 5 minutes between
+    </text>
+    <text x="440" y="747" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Plenary synthesis: 16:00 (Peterson I)
+    </text>
+    <text x="440" y="760" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Poster removal: 17:15-18:00
+    </text>
+    
+    <!-- Day 3 logistics -->
+    <rect x="790" y="640" width="340" height="140" fill="#e74c3c" stroke="#c0392b" stroke-width="1" opacity="0.2"/>
+    <text x="960" y="660" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">
+      DAY 3 - OCTOBER 18 (SATURDAY)
+    </text>
+    <text x="800" y="680" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">
+      SYNTHESIS &amp; DEPARTURE:
+    </text>
+    <text x="800" y="695" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Future directions keynote: 09:00
+    </text>
+    <text x="800" y="708" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Interactive workshop: Action planning
+    </text>
+    <text x="800" y="721" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Policy implementation panel: 13:30
+    </text>
+    <text x="800" y="734" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Final networking lunch: 12:30-13:30
+    </text>
+    <text x="800" y="747" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Conference ends: 16:30
+    </text>
+    <text x="800" y="760" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Checkout by 17:00 if staying at venue hotel
+    </text>
+  </g>
+  
+  <!-- Health &amp; Safety -->
+  <g id="health-safety">
+    <rect x="50" y="820" width="560" height="180" fill="#fff5f5" stroke="#e74c3c" stroke-width="2"/>
+    <text x="70" y="845" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#c0392b">
+      HEALTH, SAFETY &amp; ACCESSIBILITY
+    </text>
+    
+    <text x="70" y="870" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">
+      Medical &amp; Emergency:
+    </text>
+    <text x="80" y="885" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • First Aid Station: Registration desk (Peterson II)
+    </text>
+    <text x="80" y="898" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Nearest Hospital: North Estonia Medical Centre (5km)
+    </text>
+    <text x="80" y="911" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Pharmacy: Apotheka (500m east, open daily)
+    </text>
+    <text x="80" y="924" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Emergency Assembly Point: Main parking lot
+    </text>
+    
+    <text x="320" y="870" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">
+      Accessibility:
+    </text>
+    <text x="330" y="885" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • All rooms wheelchair accessible via ramps/elevators
+    </text>
+    <text x="330" y="898" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Accessible restrooms in all areas
+    </text>
+    <text x="330" y="911" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Sign language interpreters available on request
+    </text>
+    <text x="330" y="924" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Large print programs at registration desk
+    </text>
+    
+    <text x="70" y="950" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">
+      Wellness:
+    </text>
+    <text x="80" y="965" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Quiet room available: Alver &amp; Adson side office
+    </text>
+    <text x="80" y="978" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Meditation/Prayer space: Contact registration desk
+    </text>
+    <text x="330" y="965" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Dietary accommodations: Pre-registered with catering
+    </text>
+    <text x="330" y="978" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Lactation room: Available on request (key at desk)
+    </text>
+  </g>
+  
+  <!-- Technology &amp; Resources -->
+  <g id="technology-resources">
+    <rect x="630" y="820" width="520" height="180" fill="#f0f8ff" stroke="#3498db" stroke-width="2"/>
+    <text x="650" y="845" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2980b9">
+      TECHNOLOGY &amp; CONFERENCE RESOURCES
+    </text>
+    
+    <text x="650" y="870" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">
+      Digital Resources:
+    </text>
+    <text x="660" y="885" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Conference App: "ENBEL2025" (iOS/Android)
+    </text>
+    <text x="660" y="898" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Live streaming: Selected sessions on conference website
+    </text>
+    <text x="660" y="911" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Digital poster gallery: Available 24/7 during conference
+    </text>
+    <text x="660" y="924" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Session recordings: Available 48h post-session
+    </text>
+    
+    <text x="650" y="950" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">
+      Presenter Support:
+    </text>
+    <text x="660" y="965" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Tech check: 30 mins before each session
+    </text>
+    <text x="660" y="978" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • AV support: tech@enbel2025.ee | +372 5555 1234
+    </text>
+  </g>
+  
+  <!-- Local Information -->
+  <g id="local-information">
+    <rect x="50" y="1020" width="1100" height="160" fill="#f8fff8" stroke="#27ae60" stroke-width="2"/>
+    <text x="70" y="1045" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#229954">
+      LOCAL TALLINN INFORMATION
+    </text>
+    
+    <!-- Transportation -->
+    <text x="70" y="1070" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">
+      Transportation:
+    </text>
+    <text x="80" y="1085" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Airport shuttle: Bus #2 to city center (€2, 25 mins)
+    </text>
+    <text x="80" y="1098" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Public transport: Tallinn Card provides free access
+    </text>
+    <text x="80" y="1111" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Taxi: Bolt/Uber available, ~€10-15 from airport
+    </text>
+    <text x="80" y="1124" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Walking: Old Town 15 mins, Port 10 mins
+    </text>
+    
+    <!-- Dining -->
+    <text x="320" y="1070" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">
+      Nearby Dining:
+    </text>
+    <text x="330" y="1085" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Café Maiasmokk (150m): Traditional Estonian pastries
+    </text>
+    <text x="330" y="1098" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Rataskaevu 16 (300m): Modern Estonian cuisine
+    </text>
+    <text x="330" y="1111" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Kompressor (400m): Traditional pancakes, budget-friendly
+    </text>
+    <text x="330" y="1124" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Vegan Restoran V (200m): Plant-based fine dining
+    </text>
+    
+    <!-- Attractions -->
+    <text x="600" y="1070" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">
+      Must-See (Free Time):
+    </text>
+    <text x="610" y="1085" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • UNESCO Old Town (15 min walk): Medieval architecture
+    </text>
+    <text x="610" y="1098" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Toompea Castle (20 min walk): Parliament &amp; views
+    </text>
+    <text x="610" y="1111" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Telliskivi Creative City (10 min): Arts &amp; culture
+    </text>
+    <text x="610" y="1124" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Kadriorg Palace (25 min): Baroque palace &amp; gardens
+    </text>
+    
+    <!-- Practical -->
+    <text x="900" y="1070" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">
+      Practical Tips:
+    </text>
+    <text x="910" y="1085" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Currency: Euro (€) | Cards widely accepted
+    </text>
+    <text x="910" y="1098" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Language: Estonian | English widely spoken
+    </text>
+    <text x="910" y="1111" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Weather: October avg 8-12°C, dress warmly
+    </text>
+    <text x="910" y="1124" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">
+      • Tipping: 10% optional, not expected
+    </text>
+  </g>
+  
+  <!-- Conference Program Link -->
+  <g id="program-link">
+    <rect x="50" y="1200" width="1100" height="100" fill="#2c3e50" stroke="#34495e" stroke-width="2"/>
+    <text x="600" y="1230" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">
+      COMPLETE CONFERENCE PROGRAM AVAILABLE
+    </text>
+    <text x="600" y="1250" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#ecf0f1">
+      🌐 www.enbel2025.ee/program | 📱 Conference App: "ENBEL2025"
+    </text>
+    <text x="600" y="1270" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#bdc3c7">
+      Full abstracts, speaker bios, interactive maps, and real-time updates
+    </text>
+    <text x="600" y="1285" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#bdc3c7">
+      📧 Program questions: program@enbel2025.ee | 📞 Live support: +372 1234 5678
+    </text>
+  </g>
+  
+  <!-- Footer -->
+  <rect x="50" y="1320" width="1100" height="60" fill="#34495e" stroke="#2c3e50" stroke-width="1"/>
+  <text x="600" y="1345" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">
+    ENBEL 2025: Connecting Health and Climate Change
+  </text>
+  <text x="600" y="1365" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ecf0f1">
+    Keep this guide handy throughout the conference | Download digital version from conference app
+  </text>
+</svg>

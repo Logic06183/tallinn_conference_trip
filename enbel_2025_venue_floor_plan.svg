@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="800" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Conference Floor Plan Background -->
+  <rect width="1200" height="800" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="600" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50">
+    ENBEL 2025 Conference Venue Floor Plan
+  </text>
+  <text x="600" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#7f8c8d">
+    Connecting Health and Climate Change | October 16-18, 2025
+  </text>
+  
+  <!-- Main Building Structure -->
+  <rect x="100" y="120" width="1000" height="600" fill="none" stroke="#34495e" stroke-width="3"/>
+  
+  <!-- PETERSON I Room (Main Plenary) -->
+  <g id="peterson-1">
+    <rect x="150" y="170" width="350" height="200" fill="#3498db" stroke="#2980b9" stroke-width="2" opacity="0.8"/>
+    <text x="325" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">
+      PETERSON I ROOM
+    </text>
+    <text x="325" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white">
+      Main Plenary Hall
+    </text>
+    <text x="325" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">
+      Capacity: 200 | Theater Setup
+    </text>
+    <!-- Stage indicator -->
+    <rect x="170" y="190" width="310" height="30" fill="#2980b9"/>
+    <text x="325" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">STAGE</text>
+  </g>
+  
+  <!-- PETERSON II Room (Coffee/Networking) -->
+  <g id="peterson-2">
+    <rect x="550" y="170" width="200" height="120" fill="#e74c3c" stroke="#c0392b" stroke-width="2" opacity="0.8"/>
+    <text x="650" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">
+      PETERSON II
+    </text>
+    <text x="650" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">
+      Coffee & Networking
+    </text>
+    <text x="650" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+      Capacity: 80
+    </text>
+    <!-- Coffee tables indicator -->
+    <circle cx="600" cy="220" r="15" fill="#c0392b"/>
+    <circle cx="700" cy="220" r="15" fill="#c0392b"/>
+    <circle cx="650" cy="250" r="15" fill="#c0392b"/>
+  </g>
+  
+  <!-- JAKOBSEN Room (Poster Sessions) -->
+  <g id="jakobsen">
+    <rect x="800" y="170" width="250" height="200" fill="#f39c12" stroke="#e67e22" stroke-width="2" opacity="0.8"/>
+    <text x="925" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">
+      JAKOBSEN ROOM
+    </text>
+    <text x="925" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">
+      Poster Sessions &amp; Lunch
+    </text>
+    <text x="925" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+      Capacity: 150 | Exhibition Setup
+    </text>
+    <!-- Poster boards indicator -->
+    <rect x="820" y="310" width="40" height="5" fill="#e67e22"/>
+    <rect x="880" y="310" width="40" height="5" fill="#e67e22"/>
+    <rect x="940" y="310" width="40" height="5" fill="#e67e22"/>
+    <rect x="1000" y="310" width="40" height="5" fill="#e67e22"/>
+  </g>
+  
+  <!-- PANSO Room (Parallel Sessions) -->
+  <g id="panso">
+    <rect x="150" y="420" width="200" height="150" fill="#9b59b6" stroke="#8e44ad" stroke-width="2" opacity="0.8"/>
+    <text x="250" y="480" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">
+      PANSO ROOM
+    </text>
+    <text x="250" y="500" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">
+      Parallel Sessions
+    </text>
+    <text x="250" y="520" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+      Capacity: 60 | Classroom
+    </text>
+  </g>
+  
+  <!-- ALVER & ADSON Room (Parallel Sessions) -->
+  <g id="alver-adson">
+    <rect x="400" y="420" width="250" height="150" fill="#27ae60" stroke="#2ecc71" stroke-width="2" opacity="0.8"/>
+    <text x="525" y="480" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">
+      ALVER &amp; ADSON ROOM
+    </text>
+    <text x="525" y="500" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">
+      Parallel Sessions &amp; Workshops
+    </text>
+    <text x="525" y="520" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+      Capacity: 80 | U-Shape Setup
+    </text>
+  </g>
+  
+  <!-- Registration Area -->
+  <g id="registration">
+    <rect x="400" y="300" width="100" height="80" fill="#34495e" stroke="#2c3e50" stroke-width="2"/>
+    <text x="450" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">
+      REGISTRATION
+    </text>
+    <text x="450" y="345" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+      Check-in
+    </text>
+    <text x="450" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+      Information
+    </text>
+  </g>
+  
+  <!-- Restrooms -->
+  <g id="restrooms">
+    <rect x="700" y="420" width="80" height="50" fill="#95a5a6" stroke="#7f8c8d" stroke-width="1"/>
+    <text x="740" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+      RESTROOMS
+    </text>
+    <text x="740" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">
+      ♿ Accessible
+    </text>
+  </g>
+  
+  <!-- Emergency Exit -->
+  <g id="emergency-exits">
+    <rect x="120" y="300" width="20" height="60" fill="#e74c3c"/>
+    <text x="130" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#e74c3c">EXIT</text>
+    
+    <rect x="1060" y="300" width="20" height="60" fill="#e74c3c"/>
+    <text x="1070" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#e74c3c">EXIT</text>
+    
+    <rect x="500" y="590" width="60" height="20" fill="#e74c3c"/>
+    <text x="530" y="605" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#e74c3c">EMERGENCY EXIT</text>
+  </g>
+  
+  <!-- Navigation Arrows -->
+  <g id="navigation-flow" stroke="#2c3e50" stroke-width="2" fill="none" marker-end="url(#arrowhead)">
+    <!-- Main flow from Peterson I to Peterson II -->
+    <path d="M 500 270 Q 520 270 550 230" stroke-dasharray="5,5"/>
+    <!-- Flow to Jakobsen -->
+    <path d="M 750 270 Q 780 270 800 270" stroke-dasharray="5,5"/>
+    <!-- Flow to parallel rooms -->
+    <path d="M 325 370 Q 325 400 250 420" stroke-dasharray="5,5"/>
+    <path d="M 325 370 Q 400 400 525 420" stroke-dasharray="5,5"/>
+  </g>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2c3e50"/>
+    </marker>
+  </defs>
+  
+  <!-- Legend -->
+  <g id="legend">
+    <rect x="150" y="630" width="900" height="120" fill="white" stroke="#bdc3c7" stroke-width="1"/>
+    <text x="160" y="650" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">
+      Room Legend &amp; Navigation Guide
+    </text>
+    
+    <!-- Room type indicators -->
+    <rect x="170" y="665" width="20" height="15" fill="#3498db"/>
+    <text x="200" y="677" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Main Plenary Hall</text>
+    
+    <rect x="170" y="685" width="20" height="15" fill="#e74c3c"/>
+    <text x="200" y="697" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Coffee &amp; Networking</text>
+    
+    <rect x="170" y="705" width="20" height="15" fill="#f39c12"/>
+    <text x="200" y="717" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Poster Sessions</text>
+    
+    <rect x="350" y="665" width="20" height="15" fill="#9b59b6"/>
+    <text x="380" y="677" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Parallel Sessions</text>
+    
+    <rect x="350" y="685" width="20" height="15" fill="#27ae60"/>
+    <text x="380" y="697" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Workshops</text>
+    
+    <rect x="350" y="705" width="20" height="15" fill="#34495e"/>
+    <text x="380" y="717" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Registration/Info</text>
+    
+    <!-- Navigation tips -->
+    <text x="550" y="677" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">
+      • Allow 5 minutes between sessions for room changes
+    </text>
+    <text x="550" y="692" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">
+      • Poster sessions run continuously during breaks
+    </text>
+    <text x="550" y="707" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">
+      • Registration desk open 8:00-17:00 daily
+    </text>
+    <text x="550" y="722" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">
+      • WiFi: ENBEL2025 | Password: HealthClimate
+    </text>
+    
+    <!-- Accessibility -->
+    <text x="850" y="677" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">
+      ♿ All rooms wheelchair accessible
+    </text>
+    <text x="850" y="692" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">
+      🚨 Emergency exits marked in red
+    </text>
+    <text x="850" y="707" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">
+      ℹ️ Help desk at Registration
+    </text>
+  </g>
+</svg>
